@@ -1,6 +1,6 @@
 ### **Ducommerce**
 ## Simples e-commerce para pequenos empreendedores.
-Versão: 0.0.1
+Versão: 0.2.1
 
 Links úteis:
 - [web.dborges@gmail.com][1]
