@@ -1,0 +1,80 @@
+<!-- INFORMAÇÕES DO PEDIDO -->
+<div class="col-md-8 order-md-1">
+    <h4 class="mb-3">Informações de contato</h4>
+    <form class="needs-validation" action="/usuario/pagamento" enctype="application/x-www-form-urlencoded">
+        <div class="row">
+        <div class="col-md-6 mb-3">
+            <label for="firstName">Nome</label>
+            <input type="text" class="form-control" id="firstName" placeholder="Nome (obrigatório)" value="" required>
+            <div class="invalid-feedback alert alert-danger">
+                O nome é requerido.
+            </div>
+        </div>
+        <div class="col-md-6 mb-3">
+            <label for="lastName">Sobrenome</label>
+            <input type="text" class="form-control" id="lastName" placeholder="Sobrenome (obrigatório)" value="" required>
+            <div class="invalid-feedback alert alert-danger">
+            O sobrenome é requerido.
+            </div>
+        </div>
+        </div>
+
+        <div class="mb-3">
+        <label for="address">CPF/CNPJ</label>
+        <input type="text" class="form-control" id="address" placeholder="CPF/CNPJ (obrigatório)" required>
+        <div class="invalid-feedback alert alert-danger">
+            Por favor, informe seu CPF/CNPJ
+        </div>
+        </div>
+
+        <div class="mb-3">
+        <label for="address2">Logradouro <span class="text-muted">(obrigatório)</span></label>
+        <input type="text" class="form-control" id="address2" placeholder="Apartment or suite">
+        </div>
+        
+        <div class="row">
+        <div class="col-md-3 mb-3">
+            <label for="address2">Número <span class="text-muted">(obrigatório)</span></label>
+            <input type="text" class="form-control" id="address2" placeholder="Apartment or suite">
+        </div>
+        
+        <div class="col-md-9 mb-3">
+            <label for="address2">Complemento <span class="text-muted">(obrigatório)</span></label>
+            <input type="text" class="form-control" id="address2" placeholder="Apartment or suite">
+        </div>
+        </div>
+
+        <div class="row">
+        <div class="col-md-5 mb-3">
+            <label for="country">Cidade</label>
+            <select class="custom-select d-block w-100" id="country" required>
+            <option value="">Selecionar...</option>
+            <option>United States</option>
+            </select>
+            <div class="invalid-feedback">
+            Por favor, selecione uma cidade.
+            </div>
+        </div>
+        <div class="col-md-4 mb-3">
+            <label for="state">Estado</label>
+            <select class="custom-select d-block w-100" id="state" required>
+            <option value="">Selecionar...</option>
+            <option>California</option>
+            </select>
+            <div class="invalid-feedback">
+                Por favor, selecione uma estado.
+            </div>
+        </div>
+        <div class="col-md-3 mb-3">
+            <label for="zip">CEP</label>
+            <input type="text" class="form-control" id="zip" placeholder="" required>
+            <div class="invalid-feedback">
+            O CEP é obrigatório
+            </div>
+        </div>
+        </div>
+        <button type="submit" class="btn btn-primary"> Prosseguir para o pagamento</button>
+        <hr class="mb-4">
+        <!-- LEMBRAR: passar o ID do usuário que está fazendo o pedido, lá no controller -->
+    </form>
+</div>

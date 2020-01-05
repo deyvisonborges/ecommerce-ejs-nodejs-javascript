@@ -1,0 +1,27 @@
+{
+  "name": "ducommerce",
+  "version": "0.0.1",
+  "description": "Ecommerce para pequenos empreendimentos",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "author": "Deyvison Borges",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.0.0",
+    "ejs": "^2.6.2",
+    "express": "^4.17.1",
+    "express-validator": "^6.1.1",
+    "jsonwebtoken": "^8.5.1",
+    "localtoken": "^0.0.29",
+    "mongoose": "^5.6.9",
+    "morgan": "^1.9.1",
+    "node-bank": "^0.0.2",
+    "nodemon": "^1.19.1",
+    "simple-mongoose-creator": "^0.0.1"
+  }
+}

@@ -1,0 +1,33 @@
+<% include ./_top %>
+  <form class="form-signin" method="POST" action="/usuario/registro" enctype="application/x-www-form-urlencoded">
+    <div class="text-center mb-4">
+      <h1 class="h3 mb-3 font-weight-normal">Faça seu cadastro</h1>
+    </div>
+    
+    <div class="form-label-group">
+      <label for="inNome">Nome</label>
+      <input type="text" name="nome" id="inNome" class="form-control" placeholder="Digite seu nome" required autofocus>
+    </div>
+
+    <div class="form-label-group">
+      <label for="inEmail">Email</label>
+      <input type="email" name="email" id="inEmail" class="form-control" placeholder="seuemail@provedor.com" required>
+    </div>
+
+    <div class="form-label-group">
+      <label for="inSenha">Crie uma senha</label>
+      <input type="password" name="senha" id="inSenha" class="form-control" placeholder="************" required>
+    </div>
+
+    <div class="form-label-group">
+      <label for="inSenha">Digite a senha novamente</label>
+      <input type="password" class="form-control" placeholder="************" required>
+    </div>
+
+    <label>
+      <a href="/usuario/login"> Quero fazer <b>login</b></a>
+    </label>
+    <button class="btn btn-lg btn-primary btn-block" type="submit">Registrar</button>
+    <p class="mt-5 mb-3 text-muted text-center">&copy; <b>Ducommerce</b>  - 2019 </p>
+  </form>
+<% include ../../defaults/_bottom %>

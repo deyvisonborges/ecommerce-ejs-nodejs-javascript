@@ -1,0 +1,18 @@
+<% include ../defaults/_top %>
+  <div class="container">
+    <div class="row">
+      <div class="py-4 text-center">
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="#">Página principal</a></li>
+            <li class="breadcrumb-item"><a href="#">Carrinho</a></li>
+            <li class="breadcrumb-item active" aria-current="page"><b>Informações do pedido</b></li>
+            <li class="breadcrumb-item"><a href="">Formas de pagamento</a></li>
+          </ol>
+        </nav>        
+      </div>
+      <% include ./_carrinho_pedido %> <!-- carrinho -->
+      <% include ./_informacoes%> <!-- informacoes do cliente -->
+    </div>
+  </div>
+<% include ../defaults/_bottom %>
