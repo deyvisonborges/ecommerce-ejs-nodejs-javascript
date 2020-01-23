@@ -18,7 +18,7 @@
     "express-validator": "^6.1.1",
     "jsonwebtoken": "^8.5.1",
     "localtoken": "^0.0.29",
-    "mongoose": "^5.6.9",
+    "mongoose": "^5.7.5",
     "morgan": "^1.9.1",
     "node-bank": "^0.0.2",
     "nodemon": "^1.19.1",
