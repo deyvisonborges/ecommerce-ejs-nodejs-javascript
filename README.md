@@ -38,7 +38,12 @@ ducommerce/
 ## views
 
 ![Alt text](https://imgur.com/W1WJ8mC.jpg)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fdeeborges%2Fecommerce-ejs-nodejs-javascript.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fdeeborges%2Fecommerce-ejs-nodejs-javascript?ref=badge_shield)
 
 ![Alt text](https://imgur.com/plsWaV7.jpg)
 
 ![Alt text](https://imgur.com/gvqElPy.jpg)
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fdeeborges%2Fecommerce-ejs-nodejs-javascript.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fdeeborges%2Fecommerce-ejs-nodejs-javascript?ref=badge_large)
