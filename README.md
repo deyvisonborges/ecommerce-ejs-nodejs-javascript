@@ -42,3 +42,6 @@ ducommerce/
 ![Alt text](https://imgur.com/plsWaV7.jpg)
 
 ![Alt text](https://imgur.com/gvqElPy.jpg)
+
+
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fdeeborges%2Fecommerce-ejs-nodejs-javascript.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fdeeborges%2Fecommerce-ejs-nodejs-javascript?ref=badge_shield)
